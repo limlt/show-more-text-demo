@@ -3,7 +3,7 @@
     <v-flex xs12 sm8 md6>
       <v-card>
         <v-card-text>
-          <show-more-text
+          <vue-show-more-text
             :text="txtString"
             :lines="4"
             additional-container-css="margin:14px;"
@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import showMoreText from 'show-more-text'
+import vueShowMoreText from 'vue-show-more-text'
 export default {
   components: {
-    showMoreText,
+    vueShowMoreText,
   },
   data() {
     return {
